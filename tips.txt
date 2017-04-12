@@ -1,0 +1,10 @@
+1.Check deadlocks including corners and walls cases. Deadlocks are places where the robot cannot push the box anymore.
+
+2.Extend the time limit in “test_script_alternate.py” in order to print out path. Tracking the robot actions further improve performance.
+
+
+3.Check “test_problems.py” in order to analysis whether restrictions are involved. Implement “heur_alternate.py” in various case analysis as well as taking time limit into account.
+
+4.Focus on the relationship between boxes and storage places. Think about which side of the box the robot should runs to would reduce time used.
+
+5.Exclude unnecessary states while expanding. This contains duplicated states meaning the robot and the box are in the same position have occured previously.
